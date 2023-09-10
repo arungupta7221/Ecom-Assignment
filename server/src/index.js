@@ -18,9 +18,11 @@ app.use(passport.session())
 // Define API routes
 const productRoutes = require('./routes/products')
 const authRoutes = require('./routes/auth')
+const userRoutes = require('./routes/users')
 
 app.use('/api/products', productRoutes)
 app.use('/api/auth', authRoutes)
+app.use('/api/users', userRoutes)
 
 app.listen(5000, async () => {
   console.log('server started on PORT 5000')
