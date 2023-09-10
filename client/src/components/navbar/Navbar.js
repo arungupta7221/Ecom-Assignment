@@ -1,9 +1,11 @@
 // src/components/Navbar.js
-import React from 'react'
+import React, { useContext } from 'react'
 import './Navbar.css'
 import logo from '../../images/logo1.webp'
 import CategoriesDropdown from './CategoriesDropdown'
+import { cartContext } from '../../contextProvider/cartContext'
 const Navbar = () => {
+  const { getCartProductCount } = useContext(cartContext)
   return (
     <nav className="navbar">
       <div className="container">
@@ -18,7 +20,8 @@ const Navbar = () => {
           <button className="login-button">Login</button>
           <div className="cart">
             <i className="fa fa-shopping-cart"></i>
-            <span className="cart-count">0</span> {/* Add cart item count here */}
+            <span className="cart-count">count:{getCartProductCount()}</span>{' '}
+            {/* Add cart item count here */}
           </div>
         </div>
 

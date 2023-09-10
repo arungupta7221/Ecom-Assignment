@@ -5,7 +5,7 @@ const Product = require('../models/Product')
 // Route to get top 5 products from each category
 router.get('/', async (req, res) => {
   try {
-    const products = await Product.find().limit(5)
+    const products = await Product.find()
     res.json(products)
   } catch (error) {
     console.error(error)

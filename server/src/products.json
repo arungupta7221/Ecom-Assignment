@@ -1,74 +1,662 @@
 [
   {
-    "name": "Apple",
-    "category": "Fruits & Vegetables",
-    "price": 112,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40226801_4-fresho-apple-shimla.jpg?tr=w-1920,q=80"
-  },
-  {
-    "name": "Onion",
-    "category": "Fruits & Vegetables",
-    "price": 41,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000148_30-fresho-onion.jpg?tr=w-1920,q=80"
-  },
-  {
-    "name": "Carrot",
-    "category": "Fruits & Vegetables",
-    "price": 53,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000070_15-fresho-carrot-orange.jpg?tr=w-1920,q=80"
+    "name": "Onion (Loose)",
+    "price": 156,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000150_19-fresho-onion.jpg",
+    "category": "Organic"
   },
   {
     "name": "Potato",
-    "category": "Fruits & Vegetables",
-    "price": 55,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40162469_7-fresho-potato-new-crop.jpg?tr=w-1920,q=80"
+    "price": 84.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40162469_6-fresho-potato-new-crop.jpg",
+    "category": "Organic"
   },
   {
-    "name": "Tomato",
-    "category": "Fruits & Vegetables",
-    "price": 75,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000203_16-fresho-tomato-local.jpg?tr=w-1920,q=80"
+    "name": "Carrot - Orange (Loose)",
+    "price": 18.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000072_16-fresho-carrot-orange.jpg",
+    "category": "Organic"
   },
   {
-    "name": "Cucumber",
-    "category": "Fruits & Vegetables",
-    "price": 87,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40077518_1-fresho-cucumber.jpg?tr=w-1920,q=80"
+    "name": "Tomato - Hybrid (Loose)",
+    "price": 34,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Tomato - Local (Loose)",
+    "price": 33,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000203_16-fresho-tomato-local.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Ladies' Fingers (Loose)",
+    "price": 61.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000142_16-fresho-ladies-finger.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Beans - Haricot (Loose)",
+    "price": 65.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40089741_2-fresho-beans-haricot.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Cauliflower",
+    "price": 20.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Cucumber (Loose)",
+    "price": 16.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000103_16-fresho-cucumber.jpg",
+    "category": "Organic"
   },
   {
     "name": "Coriander Leaves",
-    "category": "Fruits & Vegetables",
-    "price": 95,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000326_14-fresho-coriander-leaves.jpg?tr=w-1920,q=80"
+    "price": 19.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000098_9-fresho-coriander-leaves.jpg",
+    "category": "Organic"
   },
   {
-    "name": "GoodLife UHT Treated Toned Milk",
-    "category": "Bakery, Cakes & Dairy",
+    "name": "Baby Apple Shimla",
+    "price": 147.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40134281_13-fresho-baby-apple-shimla.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Banana - Yelakki",
+    "price": 92,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000031_21-fresho-banana-yelakki.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Banana - Robusta",
+    "price": 19.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000027_28-fresho-banana-robusta.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Mushrooms - Button",
+    "price": 40,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000273_16-fresho-mushrooms-button.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Apple - Shimla",
+    "price": 103,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40033819_29-fresho-apple-shimla.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Palak - Cleaned, without roots",
+    "price": 21.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/20000979_12-fresho-palak-cleaned-without-roots.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Potato Onion Tomato 1 kg Each",
+    "price": 105,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/1200045_1-fresho-potato-onion-tomato-1-kg-each.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Capsicum - Green (Loose)",
+    "price": 65.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000067_23-fresho-capsicum-green.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Tender Coconut",
+    "price": 157.93,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/1221868_1-fresho-tender-coconut.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Cabbage",
+    "price": 10.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000066_25-fresho-cabbage.jpg",
+    "category": "Organic"
+  },
+  {
+    "name": "Fresho Pomegranate",
+    "price": 191,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000269_32-fresho-pomegranate.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Beetroot (Loose)",
+    "price": 24.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000045_18-fresho-beetroot.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Broccoli",
+    "price": 32,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000063_20-fresho-broccoli.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Ginger - Organically Grown (Loose)",
+    "price": 31.21,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40023480_4-fresho-ginger-organically-grown.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Blueberry",
+    "price": 198,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/30009286_7-fresho-blueberry.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Onion - Organically Grown (Loose)",
+    "price": 41.19,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40023472_5-fresho-onion-organically-grown.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Ridge Gourd",
+    "price": 43.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000175_15-fresho-ridge-gourd.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Lemon (Loose)",
+    "price": 91,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000335_15-fresho-lemon.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Coconut - Medium",
+    "price": 24.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000093_16-fresho-coconut-medium.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Chilli - Green, Organically Grown (Loose)",
+    "price": 113.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/50000514_5-fresho-chilli-green-organically-grown.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Sweet Corn (Loose)",
     "price": 29,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/242671_1-nandini-goodlife-toned-milk.jpg?tr=w-1920,q=80"
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40004992_14-fresho-sweet-corn.jpg",
+    "category": "Fresho"
   },
   {
-    "name": "Lactose Free Milk",
-    "category": "Bakery, Cakes & Dairy",
-    "price": 300,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1202754_1-amul-lactose-free-milk.jpg?tr=w-1920,q=80"
+    "name": "Mini Orange Imported",
+    "price": 102,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/20003956_2-fresho-baby-orange.jpg",
+    "category": "Fresho"
   },
   {
-    "name": "Malai Paneer",
-    "category": "Bakery, Cakes & Dairy",
-    "price": 190,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1200181_2-amul-malai-paneer.jpg?tr=w-1920,q=80"
+    "name": "Fresho Pomegranate Regular",
+    "price": 159,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/40120006_5-fresho-pomegranate-small.jpg",
+    "category": "Fresho"
   },
   {
-    "name": "Butter - Unsalted",
-    "category": "Bakery, Cakes & Dairy",
-    "price": 275,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40006899_9-amul-cooking-butter-unsalted.jpg?tr=w-1920,q=80"
+    "name": "Bottle Gourd (Loose)",
+    "price": 28,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/20000745_5-fresho-bottle-gourd.jpg",
+    "category": "Fresho"
   },
   {
-    "name": "Masti Buttermilk - Spice",
-    "category": "Bakery, Cakes & Dairy",
-    "price": 56,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1206656_3-amul-masti-buttermilk-spice.jpg?tr=w-1920,q=80"
+    "name": "Radish - White (Loose)",
+    "price": 20.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/10000164_14-fresho-radish-white.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Ladies Fingers + Beans French Ring + Carrot Local + Capsicum (500 g each)",
+    "price": 123.75,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/s/1209663_3-fresho-ladies-finger-beans-french-ring-carrot-local-capsicum-green-500-g-each.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Cucumber, Carrot & Beetroot 500g Each Salad",
+    "price": 58,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1202153_1-fresho-cucumber-carrot-beetroot-500g-each-salad.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Potato - Fresh Crop",
+    "price": 39,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000159_26-fresho-potato.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Kiwi - Green",
+    "price": 59,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/20000911_30-fresho-kiwi-green.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Curry Leaves",
+    "price": 28.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000105_16-fresho-curry-leaves.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Banana - Yelakki, Organically Grown",
+    "price": 57.2,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40023474_7-fresho-banana-yelakki-organically-grown.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Cucumber - English (Loose)",
+    "price": 27,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000599_12-fresho-cucumber-english.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Palak 250g+Ladies’ Fingers 500g+Cucumber 1kg+Capsicum500g+Bottle Gourd 1pc",
+    "price": 146.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209674_1-fresho-palak-250gladies-finger-500gcucumber-1kgcapsicum-green-500gbottle-gourd-1pc.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Coccinia (Loose)",
+    "price": 45,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000091_18-fresho-coccinia.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Chow Chow (Loose)",
+    "price": 10.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000087_17-fresho-chow-chow.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Watermelon - Small",
+    "price": 55,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000207_24-fresho-watermelon-small.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Avocado (Loose)",
+    "price": 369,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000312_19-fresho-avocado.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Palak+Ladies’ Fingers+Capsicum(500g Each) +Cucumber+Bottle Gourd(1kg Each)",
+    "price": 188,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209673_1-fresho-palakladies-fingercapsicum-green500g-eachcucumberbottle-gourd1kg-each.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Palak + Ladies’ Fingers + Cucumber + Capsicum (500g Each) + Bottle Gourd 1kg",
+    "price": 171.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209675_1-fresho-palak-ladies-finger-cucumber-capsicum-green-500g-each-bottle-gourd-1kg.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Palak 250g +Ladies’ Fingers + Cucumber + Capsicum (500g Each) +Bottle Gourd 1kg",
+    "price": 149.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209677_1-fresho-palak-250g-ladies-fingercucumbercapsicum-green-500g-each-bottle-gourd-1kg.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Papaya - Small",
+    "price": 72.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40114961_4-fresho-papaya-small.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Mosambi - Economy (Loose)",
+    "price": 111.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40203347_2-fresho-mosambi-economy.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Ginger (Loose)",
+    "price": 25.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000119_17-fresho-ginger.jpg",
+    "category": "USA"
+  },
+  {
+    "name": "Apple - Royal Gala, Regular",
+    "price": 102,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40033823_20-fresho-apple-royal-gala-regular.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Brinjal Bottle Shape 500 g + Cauliflower 1 pc + Cabbage 1 pc",
+    "price": 56.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209679_1-fresho-brinjal-bottle-shape-500-g-cauliflower-1-pc-cabbage-1-pc.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Pear Beauty",
+    "price": 89,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40174618_4-fresho-pear-beauty.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Coconut - Large",
+    "price": 37.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000092_15-fresho-coconut-large.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Mint Leaves - Cleaned, without roots",
+    "price": 3.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000137_19-fresho-mint-leaves-cleaned-without-roots.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Guava (Loose)",
+    "price": 41,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000370_14-fresho-guava.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Orange - Imported (Loose)",
+    "price": 108,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/20000910_12-fresho-orange-imported.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Brinjal - Varikatri (Loose)",
+    "price": 14.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000060_21-fresho-brinjal-varikatri.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Apple - Shimla, Premium",
+    "price": 162,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40113206_3-fresho-apple-shimla-premium.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Cucumber - Organically Grown (Loose)",
+    "price": 43,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/50000491_6-fresho-cucumber-organically-grown.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Banana - Nendran",
+    "price": 66,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000346_18-fresho-banana-nendran.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Methi 250 g + Coriander Leaves 100 g + Palak 250 g + Curry Leaves 100 g",
+    "price": 59,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209661_3-fresho-methi-250-g-coriander-leaves-100-g-palak-250-g-curry-leaves-100-g.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Chilli - Green Long, Medium (Loose)",
+    "price": 51,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000333_14-fresho-chilli-green-long-medium.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Garlic (Loose)",
+    "price": 25.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000115_15-fresho-garlic.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Cabbage 1 pc + Cauliflower 1 + Ridge Gourd 500 g + Bottle Gourd 1 kg",
+    "price": 101,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209664_3-fresho-cabbage-1-pc-cauliflower-1-ridge-gourd-500-g-bottle-gourd-1-kg.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Spring Onion - With roots",
+    "price": 10.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/20000981_7-fresho-spring-onion-with-roots.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Methi/Venthaya Keerai - Cleaned, without roots",
+    "price": 7,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/20000974_12-fresho-methiventhaya-keerai-cleaned-without-roots.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Methi - With roots",
+    "price": 12.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000388_11-fresho-methi-with-roots.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Brinjal - Bottle Shape (Loose)",
+    "price": 25.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000054_17-fresho-brinjal-bottle-shape.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Apple - Shimla 4 pcs + Banana - Robusta 1 kg + Kiwi - Green 1 pc",
+    "price": 169.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1201612_2-fresho-apple-shimla-4-pcs-banana-robusta-1-kg-kiwi-green-1-pc.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Papaya - Medium",
+    "price": 107.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000152_22-fresho-papaya-medium.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Dragon Fruit (Loose)",
+    "price": 78.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40008982_15-fresho-dragon-fruit.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Indian Herbs and Condiments",
+    "price": 19.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1202817_1-fresho-indian-herbs-and-condiments.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Chutney mix Combo",
+    "price": 19.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1222458_1-fresho-fresho-chilli-green-long-fresho-ginger-fresho-coriander-leaves-100-g.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Baby Banana - Robusta",
+    "price": 30.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40179390_6-fresho-baby-banana-robusta.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Sapota",
+    "price": 45,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000180_15-fresho-sapota.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Daily fruits combo",
+    "price": 186,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1222456_1-fresho-fresho-apple-red-delicious-regular-4-pcs-fresho-banana-robusta-1-kg.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Carrot - Ooty (Loose)",
+    "price": 22.25,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000270_13-fresho-carrot-ooty.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Pomegranate - Peeled",
+    "price": 125.35,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40005823_7-fresho-pomegranate-peeled.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Coriander Leaves 100 g + Garlic 250 g + Ginger 250 g + Chilli Green Long 250 g",
+    "price": 60,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1209662_3-fresho-coriander-leaves-100-g-garlic-250-g-ginger-250-g-chilli-green-long-250-g.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Beans - Broad (Loose)",
+    "price": 65.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000036_20-fresho-beans-broad.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Garlic - Peeled",
+    "price": 24.18,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40010687_4-fresho-garlic-peeled.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Pineapple",
+    "price": 49,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000156_21-fresho-pineapple.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Bitter Gourd (Loose)",
+    "price": 17.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000049_20-fresho-bitter-gourd.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Apple - Red Delicious, Regular 4pcs + Kiwi - Green 3pcs + Pomegranate 4pcs",
+    "price": 397,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1201613_2-fresho-apple-red-delicious-regular-4pcs-kiwi-green-3pcs-pomegranate-4pcs.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Sweet Potato (Loose)",
+    "price": 20.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000194_13-fresho-sweet-potato.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Lettuce - Iceberg",
+    "price": 29,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000133_14-fresho-lettuce-iceberg.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Beans - Cluster (Loose)",
+    "price": 17.62,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000040_10-fresho-beans-cluster.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Onion - Sambhar (Loose)",
+    "price": 65.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000179_12-fresho-onion-sambhar.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Marigold Flower - Yellow",
+    "price": 12.4,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/20001186_11-fresho-marigold-flower-yellow.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Capsicum - Green, Organically Grown (Loose)",
+    "price": 90.75,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/50000479_5-fresho-capsicum-green-organically-grown.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Guava Premium (Thai)",
+    "price": 47,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/30002322_11-fresho-guava-thai.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Banana - Raw Green (Loose)",
+    "price": 41,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000167_13-fresho-banana-raw-green.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Beans - Organically Grown (Loose)",
+    "price": 34,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40023469_7-fresho-beans-organically-grown.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Snake Gourd",
+    "price": 35.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000813_2-gopalan-organic-snake-gourd.jpg",
+    "category": "Gopalan Organic"
+  },
+  {
+    "name": "Assorted Puja Flowers",
+    "price": 87,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196765_1-hoovu-fresh-assorted-puja-flowers.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Lotus",
+    "price": 114,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196772_1-hoovu-fresh-lotus.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Assorted Puja Flowers + Greens Mix",
+    "price": 81,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196773_1-hoovu-fresh-assorted-puja-flowers-greens-mix.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "MariGold",
+    "price": 68,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40214550_1-hoovu-fresh-marigold-string.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Chrysanthemums Puja Mola",
+    "price": 78,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196770_1-hoovu-fresh-chrysanthemums-puja-mola.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Tulsi Mala",
+    "price": 68,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40202206_1-hoovu-fresh-tulsi-mola.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Rose Mola",
+    "price": 78,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40222660_1-hoovu-fresh-rose-molastring.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Rajnigandha Puja Mola",
+    "price": 80,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196771_1-hoovu-fresh-rajnigandha-puja-mola.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Jasmin Mola",
+    "price": 79,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40196769_1-hoovu-fresh-jasmine-mala.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Ekkada Hoovu String",
+    "price": 146,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/40214548_1-hoovu-fresh-ekkada-hoovu-string.jpg",
+    "category": "Hoovu Fresh"
+  },
+  {
+    "name": "Apple - Royal Gala Economy",
+    "price": 100,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000005_27-fresho-apple-royal-gala-economy.jpg",
+    "category": "Fresho"
+  },
+  {
+    "name": "Apple Banana Breakfast",
+    "price": 166.5,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1202742_1-bb-combo-apple-banana-breakfast.jpg",
+    "category": "bb Combo"
   }
 ]
