@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Apple",
+    "category": "Fruits & Vegetables",
+    "price": 112,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40226801_4-fresho-apple-shimla.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Onion",
+    "category": "Fruits & Vegetables",
+    "price": 41,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000148_30-fresho-onion.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Carrot",
+    "category": "Fruits & Vegetables",
+    "price": 53,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000070_15-fresho-carrot-orange.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Potato",
+    "category": "Fruits & Vegetables",
+    "price": 55,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40162469_7-fresho-potato-new-crop.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Tomato",
+    "category": "Fruits & Vegetables",
+    "price": 75,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000203_16-fresho-tomato-local.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Cucumber",
+    "category": "Fruits & Vegetables",
+    "price": 87,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40077518_1-fresho-cucumber.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Coriander Leaves",
+    "category": "Fruits & Vegetables",
+    "price": 95,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/10000326_14-fresho-coriander-leaves.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "GoodLife UHT Treated Toned Milk",
+    "category": "Bakery, Cakes & Dairy",
+    "price": 29,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/242671_1-nandini-goodlife-toned-milk.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Lactose Free Milk",
+    "category": "Bakery, Cakes & Dairy",
+    "price": 300,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1202754_1-amul-lactose-free-milk.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Malai Paneer",
+    "category": "Bakery, Cakes & Dairy",
+    "price": 190,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1200181_2-amul-malai-paneer.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Butter - Unsalted",
+    "category": "Bakery, Cakes & Dairy",
+    "price": 275,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/40006899_9-amul-cooking-butter-unsalted.jpg?tr=w-1920,q=80"
+  },
+  {
+    "name": "Masti Buttermilk - Spice",
+    "category": "Bakery, Cakes & Dairy",
+    "price": 56,
+    "img_url": "https://www.bigbasket.com/media/uploads/p/m/1206656_3-amul-masti-buttermilk-spice.jpg?tr=w-1920,q=80"
+  }
+]
