@@ -1,4 +1,3 @@
-// src/components/ProductListing.js
 import React, { useEffect, useState, useContext } from 'react'
 import './ProductListing.css'
 import axios from 'axios'

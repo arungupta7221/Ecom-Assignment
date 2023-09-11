@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card_container {
@@ -20,6 +20,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   transition: transform 0.2s ease-in-out;
+  width: 100%;
 }
 
 .product-card:hover {
@@ -41,7 +42,7 @@
 
 .product-card p {
   font-size: 14px;
-  color: black;
+  color: #777;
   margin-bottom: 12px;
 }
 

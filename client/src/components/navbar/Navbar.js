@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import logo from '../../images/logo1.webp'
