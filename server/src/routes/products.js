@@ -5,7 +5,13 @@ const Product = require('../models/Product')
 // Route to get top 5 products from each category
 router.get('/', async (req, res) => {
   try {
-    const products = await Product.find()
+    let query = {} // Initialize an empty query object
+    // Check if there are query parameters for filtering
+    if (req.query.category) {
+      query.category = req.query.category
+    }
+
+    const products = await Product.find(query)
     res.json(products)
   } catch (error) {
     console.error(error)

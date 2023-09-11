@@ -49,8 +49,10 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 70px;
   font-weight: bold;
+  padding: 10px;
+  /* margin-left: 30px; */
 }
 
 .cart {
@@ -70,18 +72,29 @@
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content li {
   padding: 10px;
   text-decoration: none;
   display: block;
   color: #000;
 }
 
-.dropdown-content a:hover {
+.dropdown-content li:hover {
   background-color: #f2f2f2;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.user-info {
+  width: 40px; /* Set the width and height to create a circle */
+  height: 40px;
+  background-color: #007bff; /* Background color for the circle */
+  color: #fff; /* Text color */
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  text-align: center; /* Center the text horizontally */
+  line-height: 40px; /* Center the text vertically */
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally, make the text bold */
 }

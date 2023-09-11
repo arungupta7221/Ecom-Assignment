@@ -30,6 +30,24 @@ router.post('/register', async (req, res) => {
   }
 })
 
-// Implement other user-related routes (login, profile, etc.)
+// Route to fetch user email and password by email
+router.get('/fetchUser', async (req, res) => {
+  try {
+    const { email } = req.query
+
+    // Find the user by email
+    const user = await User.findOne({ email })
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found.' })
+    }
+
+    // Return the user's email and hashed password (you may choose to omit the password)
+    res.status(200).json({ email: user.email, password: user.password })
+  } catch (error) {
+    console.error('Fetch user credentials error:', error)
+    res.status(500).json({ message: 'Server Error' })
+  }
+})
 
 module.exports = router
