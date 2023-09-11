@@ -3,6 +3,7 @@ import React, { useEffect, useState, useContext } from 'react'
 import './ProductListing.css'
 import axios from 'axios'
 import { cartContext } from '../../contextProvider/cartContext'
+import Navbar from '../navbar/Navbar'
 const ProductListing = () => {
   const [products, setProducts] = useState([])
   const [productsByCategory, setProductsByCategory] = useState({})
@@ -34,27 +35,30 @@ const ProductListing = () => {
   const RenderProductByCat = ({ category }) => {
     console.log(productsByCategory[category])
     return (
-      <div className="card_container">
-        {productsByCategory[category]?.map((product) => (
-          <div key={product.id} className="product-card">
-            {/* Display product information here */}
-            <img className="product_img" src={product.img_url} alt="product_img" />
-            <h2>{product.name}</h2>
-            {/* <p>{product.price}</p> */}
-            {console.log(isProductInCart(product._id))}
-            {isProductInCart(product._id) ? (
-              <button onClick={() => removeCart(product)}>Remove</button>
-            ) : (
-              <button onClick={() => addToCart(product)}>Add to cart</button>
-            )}
-          </div>
-        ))}
-      </div>
+      <>
+        <div className="card_container">
+          {productsByCategory[category]?.map((product) => (
+            <div key={product.id} className="product-card">
+              {/* Display product information here */}
+              <img className="product_img" src={product.img_url} alt="product_img" />
+              <h2>{product.name}</h2>
+              {/* <p>{product.price}</p> */}
+              {console.log(isProductInCart(product._id))}
+              {isProductInCart(product._id) ? (
+                <button onClick={() => removeCart(product)}>Remove</button>
+              ) : (
+                <button onClick={() => addToCart(product)}>Add to cart</button>
+              )}
+            </div>
+          ))}
+        </div>
+      </>
     )
   }
   return (
     <div>
       <div>
+        <Navbar categoris={Object.keys(productsByCategory)} />
         {Object.keys(productsByCategory)?.map((category) => {
           return (
             <>

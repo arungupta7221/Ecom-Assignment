@@ -2,9 +2,11 @@
 import React, { useContext } from 'react'
 import './Navbar.css'
 import logo from '../../images/logo1.webp'
-import CategoriesDropdown from './CategoriesDropdown'
+
 import { cartContext } from '../../contextProvider/cartContext'
-const Navbar = () => {
+
+const Navbar = ({ categoris }) => {
+  console.log(categoris)
   const { getCartProductCount } = useContext(cartContext)
   return (
     <nav className="navbar">
@@ -24,17 +26,20 @@ const Navbar = () => {
             {/* Add cart item count here */}
           </div>
         </div>
-
-        {/* <div className="navbar-menu">
-          <ul className="menu-list">
-            <li className="dropdown">
-              <a href="/" className="dropbtn">
-                Categories <i className="fa fa-caret-down"></i>
-              </a>
-              <CategoriesDropdown />
-            </li>
-          </ul>
-        </div> */}
+      </div>
+      <div className="navbar-menu">
+        <ul className="menu-list">
+          <li className="dropdown">
+            <a href="/" className="dropbtn">
+              Categories <i className="fa fa-caret-down"></i>
+            </a>
+            <div className="dropdown-content">
+              {categoris?.map((cat) => (
+                <a href="/">{cat}</a>
+              ))}
+            </div>
+          </li>
+        </ul>
       </div>
     </nav>
   )

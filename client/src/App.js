@@ -3,11 +3,12 @@ import Navbar from './components/navbar/Navbar'
 import './App.css'
 import ProductListing from './components/Products/ProductListing'
 import CartProvider from './contextProvider/cartContext'
+
 function App() {
   return (
     <Router>
       <CartProvider>
-        <Navbar />
+        {/* <Navbar /> */}
 
         <ProductListing />
       </CartProvider>
