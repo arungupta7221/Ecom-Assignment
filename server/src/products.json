@@ -652,11 +652,5 @@
     "price": 100,
     "img_url": "https://www.bigbasket.com/media/uploads/p/mm/10000005_27-fresho-apple-royal-gala-economy.jpg",
     "category": "Fresho"
-  },
-  {
-    "name": "Apple Banana Breakfast",
-    "price": 166.5,
-    "img_url": "https://www.bigbasket.com/media/uploads/p/mm/1202742_1-bb-combo-apple-banana-breakfast.jpg",
-    "category": "bb Combo"
   }
 ]

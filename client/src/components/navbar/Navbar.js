@@ -4,6 +4,7 @@ import './Navbar.css'
 import logo from '../../images/logo1.webp'
 import LoginOverlay from '../loginOverlay/loginOverlay'
 import { useNavigate } from 'react-router-dom'
+import { FaShoppingCart } from 'react-icons/fa'
 
 import { cartContext } from '../../contextProvider/cartContext'
 
@@ -47,8 +48,9 @@ const Navbar = ({ categoris }) => {
           )}
           {isLoginOpen && <LoginOverlay onClose={closeLoginOverlay} onLogin={handleLogin} />}
           <div className="cart">
-            <i className="fa fa-shopping-cart"></i>
-            <span className="cart-count">count:{getCartProductCount()}</span>{' '}
+            {/* <i className="fa fa-shopping-cart"></i> */}
+            <FaShoppingCart className="cart-icon" />
+            <span className="cart-count">{getCartProductCount()}</span>{' '}
             {/* Add cart item count here */}
           </div>
         </div>
@@ -57,9 +59,7 @@ const Navbar = ({ categoris }) => {
       <div className="navbar-menu">
         <ul className="menu-list">
           <li className="dropdown">
-            <a href="/" className="dropbtn">
-              Categories <i className="fa fa-caret-down"></i>
-            </a>
+            <button className="dropbtn">Categories</button>
             <div className="dropdown-content">
               {categoris?.map((cat) => (
                 <ul>

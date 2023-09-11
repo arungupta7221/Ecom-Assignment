@@ -36,17 +36,13 @@
 }
 
 .login-card button {
-  background-color: black;
+  background-color: #ff4c00;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-.login-card button:hover {
-  background-color: #0056b3;
 }
 
 /* Close button styles */

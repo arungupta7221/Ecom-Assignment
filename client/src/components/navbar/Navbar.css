@@ -2,9 +2,11 @@
 /* Customize the styling as needed */
 
 .navbar {
-  background-color: #0052cc;
-  color: #fff;
-  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Set your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for a raised effect */
+  z-index: 100; /* Adjust the z-index as needed to ensure the navbar appears above other elements */
 }
 
 .container {
@@ -45,7 +47,7 @@
 }
 
 .login-button {
-  background-color: black;
+  background-color: #ff4c00;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -54,11 +56,23 @@
   padding: 10px;
   /* margin-left: 30px; */
 }
+/* CSS for the cart icon */
+.cart-icon {
+  font-size: 24px; /* Adjust the size as needed */
+  color: #ff4c00; /* Set the color to your desired color */
+}
+
+/* Optional hover effect for interaction */
+.cart-icon:hover {
+  color: #ff4c00; /* Change the color on hover */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
 
 .cart {
   font-size: 24px;
   color: #ff4c00;
   cursor: pointer;
+  margin-right: 20px;
 }
 /* src/components/CategoriesDropdown.css */
 /* Customize the styling as needed */
@@ -71,7 +85,15 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
+.dropbtn {
+  background-color: #ff4c00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 70px;
+  font-weight: bold;
+  padding: 10px;
+}
 .dropdown-content li {
   padding: 10px;
   text-decoration: none;
@@ -81,6 +103,7 @@
 
 .dropdown-content li:hover {
   background-color: #f2f2f2;
+  cursor: pointer;
 }
 
 /* Show the dropdown menu on hover */
@@ -90,7 +113,7 @@
 .user-info {
   width: 40px; /* Set the width and height to create a circle */
   height: 40px;
-  background-color: #007bff; /* Background color for the circle */
+  background-color: #ff4c00; /* Background color for the circle */
   color: #fff; /* Text color */
   border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
   text-align: center; /* Center the text horizontally */
