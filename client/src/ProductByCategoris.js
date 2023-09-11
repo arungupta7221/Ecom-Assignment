@@ -29,8 +29,14 @@ const ProductByCategoris = () => {
         console.error('Error fetching products:', error)
       })
   }, [cat])
+
+  // Function to navigate to the homepage
+  const navigateToHomepage = () => {
+    navigate('/') // Navigate to the homepage route
+  }
   return (
     <>
+      <button onClick={navigateToHomepage}>Go to Homepage</button>
       <h2>{cat}</h2>
       {
         <div className="card_container">
